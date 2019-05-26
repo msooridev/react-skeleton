@@ -1,0 +1,1 @@
+console.error("Error: Plugin/Preset files are not allowed to export objects, only functions. In /Users/mahesh/prj/react/react-skeleton/node_modules/babel-preset-react/lib/index.js while parsing file: /Users/mahesh/prj/react/react-skeleton/src/main.jsx");
