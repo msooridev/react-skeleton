@@ -8,14 +8,14 @@ var ingrediants = [
     {"id": 4, "text": "potatoes"}
 ];
 
-var List = React.createClass({
-    render: function () {
+class List extends React.Component {
+    render() {
         var listItems = ingrediants.map(function (item) {
             return <ListItem key={item.id} ingrediant={item.text}/>
         })
 
         return (<ul>{listItems}</ul>);
     }
-});
+}
 
 module.exports = List;
